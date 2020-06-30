@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dip"
+    android:paddingLeft="12dip"
+    android:divider="@null"
+   >
+
+      <TextView
+            android:id="@+id/item3_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+
+      <TextView
+          android:id="@+id/kongbai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item3_day"
+        android:text=" "
+        android:textSize="20dp"/>
+
+       <TextView
+           android:id="@+id/item3_week"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@id/kongbai"
+           android:textSize="20dp"/>
+
+      <TextView
+          android:id="@+id/xie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item3_week"
+        android:text="/"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/item3_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/xie"
+        android:textSize="20dp"/>
+
+
+
+
+
+
+</RelativeLayout>

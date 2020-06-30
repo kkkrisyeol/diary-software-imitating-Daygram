@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dip"
+    android:paddingTop="4dip"
+    android:paddingLeft="9dip"
+    android:paddingRight="9dip"
+    android:divider="@null">
+
+    <TextView
+        android:id="@+id/item_week"
+        android:text="week"
+        android:textSize="16dp"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@drawable/juxing">
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_day"
+        android:text="day"
+        android:textSize="25dp"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/juxing"
+        android:layout_below="@+id/item_week"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="70dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/item_Text"
+        android:gravity="center_vertical"
+        android:background="@drawable/juxing"
+        android:layout_toRightOf="@+id/item_week"
+        android:textSize="23dip">
+    </TextView>
+
+
+
+</RelativeLayout>
